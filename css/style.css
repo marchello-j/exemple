@@ -1,0 +1,29 @@
+body html {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container_header {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(130, 64, 64);
+}
+
+.contaier_content {
+  background-color: rgb(43, 36, 36)
+}
+
+.container_footer {
+  background-color: green;
+  height: 150px;
+  width: 100%;
+}
